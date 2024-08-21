@@ -11,7 +11,8 @@ $$f'(x) = \frac{d}{dx} (a_n x^n + a_{n-1} x^{n-1} + \cdot \cdot \cdot +a_1x + a_
 
 ### Where
 $$f(x) = a_n x^n + a_{n-1} x^{n-1} + \cdot \cdot \cdot +a_1x + a_0 $$
-The derivate of 𝑓(𝑥) is:
+##
++ The derivate of 𝑓(𝑥) is:
     $$f'(x) = n \cdot a_n x^{n-1} + (n-1) \cdot a_{n-1} x^{n-2} + \cdot \cdot \cdot + 1 \cdot a_1 $$
 
 You are provided with a polynomial function as a list of integers where each integer represents the coefficient of 𝑥 in decreasing order of powers. The task is to compute and return the derivative of the polynomial.

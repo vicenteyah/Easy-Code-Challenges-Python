@@ -18,7 +18,9 @@ $$det(A) = \sum_{j=1}^n \left(-1\right)^{i+j} * a_{ij} * det(M_{ij})  $$
 
 #### Where
 $$a_{ij} \text{ is the element from the first row and the } j^{th} \text{ column. }$$
+##
 $$M_{ij} \text{ is the } (n - 1) \times (n - 1) \text{ submatrix obtained  by removing the } i^{th} \text{ row and } j^{th} \text{ column from } A.$$
+##
 $$\text{The base case for recursion is when the matrix is } 1 \times 1 \text{ where the determinant is simply the value of the single element. }$$
 
 Return the determinant as an integer
