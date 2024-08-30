@@ -9,4 +9,4 @@ class BasicOperationsTest(unittest.TestCase):
         test2 = BasicOperations([6, 10, 30, 12, 25])
         
         self.assertEqual(test1.calculate_result(),12) # 12 - 5 + 5 = 12 
-        self.assertEqual(test2.calculate_result(),-17) # 48 - 35 + 0 = 13 
+        self.assertEqual(test2.calculate_result(),13) # 48 - 35 + 0 = 13 
